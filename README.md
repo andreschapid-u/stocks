@@ -18,7 +18,14 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+
+
+## Instalar angular-cli-ghpages
+Ejecutar `npm install -g angular-cli-ghpages` to install angular-cli-ghpages.
+Luego instalamos con `ng add angular-cli-ghpages` para agregar angular-cli-ghpages a nuestro proyecto.
+Luego desplegamos en gh-pages con `ng deploy --repo=https://github.com/andreschapid-u/stocks.git` para desplegar en gh-pages.
+1. Para vizuaizar el la aplicacion desplegada ingresamos a https://andreschapid-u.github.io/stocks/
+
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
