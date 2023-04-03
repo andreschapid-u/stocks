@@ -23,7 +23,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Instalar angular-cli-ghpages
 Ejecutar `npm install -g angular-cli-ghpages` to install angular-cli-ghpages.
 Luego instalamos con `ng add angular-cli-ghpages` para agregar angular-cli-ghpages a nuestro proyecto.
-Luego desplegamos en gh-pages con `ng deploy --repo=https://github.com/andreschapid-u/stocks.git` para desplegar en gh-pages.
+Luego desplegamos en gh-pages con `ng deploy --base-href='stocks'` para desplegar en gh-pages.
 1. Para vizuaizar el la aplicacion desplegada ingresamos a https://andreschapid-u.github.io/stocks/
 
 
